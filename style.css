@@ -1,0 +1,226 @@
+
+.img {
+    background-image: url(DIVA-ambientata.jpg);
+    background-size: cover;
+    padding: 100px;  
+}
+h1 {
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+}
+h2 { 
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    color: #F7B70B;
+    font-size: 20px;
+}
+h3{
+    font-family: 'EB Garamond', serif; 
+    text-transform: uppercase;  
+}
+.text {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 17px;
+    align-self: start;
+}
+p{
+    align-self: center;
+    font-family: 'EB Garamond', serif;
+    color: #52616b;  
+}
+.textHeader {
+    color: white;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif; 
+    text-transform: uppercase; 
+    margin-top: 20px;
+}
+.head {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    
+}
+.headone {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.about {
+    display: flex;
+}
+.userInter {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0;
+    background-color: #14112c;
+}
+.textAbout {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 20px;
+}
+.textImage {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;  
+}
+.aboutVideo{
+    display: flex;
+    flex: 1;
+    background-color: #14112c;
+}
+.FYellow {
+    background-color: #F7B70B;
+}
+hr {
+    border: 6px solid #F7B70B;
+    color: #ebc868;
+    width: 100px;
+}
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    flex: 1; 
+    border-left: #14112c 4px solid;
+}
+.one:hover {
+    background-color: #f3e091;
+}
+.oneBorder{
+    border:  2px solid  ;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    flex: 1;
+    border-style: outset;
+}
+.zzzSimbol {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    flex: 1; 
+}
+.zzz {
+    display: flex;
+    margin:0;
+    flex-wrap: wrap;   
+}
+.simbol {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.button {
+    border-radius: 10px;
+    color: white;
+    background-color: #F7B70B;
+    font-size: 20px;
+    padding: 10px;
+    cursor: help;
+}
+.button:hover {
+    background-color: #f3e091;
+}
+.quastionimg {
+    display: flex;
+    background-image: url(LEI700_VISTAL_master_slave_gallery.jpg);
+    background-size: cover;
+    padding: 100px; 
+    flex-wrap: wrap;  
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family:'EB Garamond', serif ;
+    width: 500px;
+    color: #F7B70B;
+}
+.skills {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+}
+#pictures {
+    width: 85%;
+}
+.bt {
+    border: none;
+    color: #232323;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    background:none;
+}
+.bt:hover {
+    color: #f3e091;
+}
+
+.nav-link:hover {
+    color: #F7B70B !important;
+} 
+
+@media all and (max-width:900px) {
+    .img {
+        background-size: 100% ;
+        padding: 0;
+    }
+    .headone {
+        margin-right: 0;
+    }
+    .about {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 70px;
+    }
+}
+
+@media all and (max-width:500px) {
+    form {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    h3 {
+        margin-left: 10px;
+    }
+    .label {
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .bt {
+        font-size: 10px;
+    }
+    img {
+        width: 350px;
+    }
+    .headerNav {
+        background-color: white;
+        position: static;
+    }
+}
